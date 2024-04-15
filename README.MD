@@ -1,4 +1,4 @@
-# API de Gerenciamento de Usuários com PostgreSQL e Express - Aula inicial
+# API Usuarios Node.js, Express e PostgreSQL, com calculo de idade e signo.
 
 Este é um exemplo de uma API web construída com Node.js, Express e PostgreSQL para gerenciar usuários. A API permite a criação, leitura, atualização e exclusão (CRUD) de usuários em um banco de dados PostgreSQL.
 

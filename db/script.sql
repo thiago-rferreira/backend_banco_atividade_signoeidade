@@ -16,6 +16,5 @@ CREATE TABLE users (
     sexo VARCHAR(10) NOT NULL
 );
 
-
 -- Verifica se a tabela foi criada corretamente
 \d users;
