@@ -62,6 +62,7 @@ Você pode usar o Insomnia para testar as rotas da API de Gerenciamento de Usuá
 1. Abra o Insomnia e crie uma nova Pasta para o projeto.
 2. Adicione as requisições para cada rota da API:
    - **POST /usuarios**: Adicione uma requisição do tipo `POST` para criar um novo usuário. Configure o corpo da requisição com o JSON contendo os dados do usuário.
+   ![alt text](/images/image.png)
    - **GET /usuarios**: Adicione uma requisição do tipo `GET` para obter todos os usuários.
    - **GET /usuarios/:id**: Adicione uma requisição do tipo `GET` para obter um usuário específico. Substitua `:id` pelo ID do usuário desejado.
    - **PUT /usuarios/:id**: Adicione uma requisição do tipo `PUT` para atualizar um usuário existente. Substitua `:id` pelo ID do usuário que deseja atualizar e configure o corpo da requisição com os novos dados do usuário.
