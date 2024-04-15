@@ -48,20 +48,27 @@ O servidor será iniciado na porta especificada.
 
 Certifique-se de substituir `nome-do-arquivo.js` pelo nome do arquivo onde o código está localizado.
 
-## Testes
+## Testando as Rotas com Insomnia
 
-Configuração do Ambiente no Insomnia
-Faça o download e instale o Insomnia.
-Abra o Insomnia e crie um novo Workspace para o projeto.
-Adicionando as Requisições
-Abra o Insomnia e crie uma nova Pasta para o projeto.
-Adicione as requisições para cada rota da API:
-POST /usuarios: Adicione uma requisição do tipo POST para criar um novo usuário. Configure o corpo da requisição com o JSON contendo os dados do usuário.
-GET /usuarios: Adicione uma requisição do tipo GET para obter todos os usuários.
-GET /usuarios/:id: Adicione uma requisição do tipo GET para obter um usuário específico. Substitua :id pelo ID do usuário desejado.
-PUT /usuarios/:id: Adicione uma requisição do tipo PUT para atualizar um usuário existente. Substitua :id pelo ID do usuário que deseja atualizar e configure o corpo da requisição com os novos dados do usuário.
-DELETE /usuarios/:id: Adicione uma requisição do tipo DELETE para excluir um usuário existente. Substitua :id pelo ID do usuário que deseja excluir.
-Testando as Requisições
-Com as requisições adicionadas, você pode testá-las clicando no botão "Send" ao lado de cada requisição.
-Após enviar a requisição, o Insomnia exibirá a resposta do servidor, permitindo que você visualize o resultado da operação.
+Você pode usar o Insomnia para testar as rotas da API de Gerenciamento de Usuários. O Insomnia é uma ferramenta de teste de API que permite enviar solicitações HTTP para o seu servidor e visualizar as respostas.
+
+### Configuração do Ambiente no Insomnia
+
+1. Faça o download e instale o [Insomnia](https://insomnia.rest/download).
+2. Abra o Insomnia e crie um novo Workspace para o projeto.
+
+### Adicionando as Requisições
+
+1. Abra o Insomnia e crie uma nova Pasta para o projeto.
+2. Adicione as requisições para cada rota da API:
+   - **POST /usuarios**: Adicione uma requisição do tipo `POST` para criar um novo usuário. Configure o corpo da requisição com o JSON contendo os dados do usuário.
+   - **GET /usuarios**: Adicione uma requisição do tipo `GET` para obter todos os usuários.
+   - **GET /usuarios/:id**: Adicione uma requisição do tipo `GET` para obter um usuário específico. Substitua `:id` pelo ID do usuário desejado.
+   - **PUT /usuarios/:id**: Adicione uma requisição do tipo `PUT` para atualizar um usuário existente. Substitua `:id` pelo ID do usuário que deseja atualizar e configure o corpo da requisição com os novos dados do usuário.
+   - **DELETE /usuarios/:id**: Adicione uma requisição do tipo `DELETE` para excluir um usuário existente. Substitua `:id` pelo ID do usuário que deseja excluir.
+
+### Testando as Requisições
+
+1. Com as requisições adicionadas, você pode testá-las clicando no botão "Send" ao lado de cada requisição.
+2. Após enviar a requisição, o Insomnia exibirá a resposta do servidor, permitindo que você visualize o resultado da operação.
 
