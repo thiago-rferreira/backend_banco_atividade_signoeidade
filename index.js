@@ -133,6 +133,11 @@ app.get('/usuarios/:id', async (req, res) => {
   }
 });
 
+//Rota raiz para teste
+app.get('/', async (req, res) => {
+  res.status(200).send({ mensagem: 'Servidor backend rodando com sucesso🚀'});
+});
+
 // Inicie o servidor
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT} 🚀🚀`);
