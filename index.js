@@ -2,7 +2,7 @@ const express = require('express');
 const { Pool } = require('pg');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 app.use(express.json());
 
@@ -78,7 +78,9 @@ app.get('/usuarios', async (req, res) => {
   try {
     const result = await pool.query('SELECT * FROM users');
     res.json({
+        //rowCount retorna a quantidade de registros
         total: result.rowCount,
+        //rows retorna um array com os registros
         usuarios: result.rows,
     });
   } catch (error) {
@@ -133,5 +135,5 @@ app.get('/usuarios/:id', async (req, res) => {
 
 // Inicie o servidor
 app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
+  console.log(`Servidor rodando na porta ${PORT} 🚀🚀`);
 });
