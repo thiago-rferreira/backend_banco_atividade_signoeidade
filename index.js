@@ -10,8 +10,8 @@ app.use(express.json());
 const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
-  database: 'atividade_pratica_01', // Alterado para o nome do seu banco de dados
-  password: 'ds564',
+  database: 'atividade_pratica_01', // Nome do seu banco de dados
+  password: 'ds564', // senha do banco
   port: 5432, // Porta padrão do PostgreSQL
 });
 
