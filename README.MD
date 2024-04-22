@@ -14,6 +14,11 @@ npm install express pg
 - `PORT`: Porta em que o servidor será executado.
 - Dados de acesso ao banco de dados PostgreSQL (`user`, `host`, `database`, `password`, `port`).
 
+## Comandos iniciais para criação do projeto
+- npm init -y
+- npm install express pg
+- npm install -g nodemon
+
 ## Criando o Banco de Dados
 
 1 . Antes de iniciar o servidor, é necessário criar o banco de dados no PostgreSQL. Você pode fazer isso executando os comandos no console do PostgreSQL ou em uma ferramenta de administração:
